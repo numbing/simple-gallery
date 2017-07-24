@@ -11,13 +11,26 @@ li{
   height: 30px;
   line-height: 30px;
   text-align: center;
+  cursor:pointer;
 }
 h1{
   text-align: center;
+}
+li:hover{
+  background-color:lightgray;
+
 }
 body {
     background-repeat: no-repeat;
     background-position: 100% 100%;
     background-attachment: fixed;
     background-size:cover;
+}
+a{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+li.active{
+  background-color: red;
 }
